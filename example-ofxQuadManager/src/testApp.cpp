@@ -40,7 +40,7 @@ void testApp::setup(){
 
 //--------------------------------------------------------------
 void testApp::update(){
-  fingerMovie.idleMovie();
+  fingerMovie.update();
   
   quadManager.update();
 }
